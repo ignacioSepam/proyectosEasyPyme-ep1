@@ -1,5 +1,5 @@
 <?php
-namespace utilidades;
+namespace Core\Util;
 
 class Check{
     
@@ -8,7 +8,7 @@ public static function password($data){
         
         
     }
-    
+    // verifica que no funciona
     public static function email($data){
         if(!filter_var($data,FILTER_VALIDATE_EMAIL)){
             return false;
