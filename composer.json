@@ -26,7 +26,8 @@
     "autoload-dev": {
         "psr-4": {
             "Core\\": "src/Core",
-            "Ejercicio\\": "src/Ejercicio"
+            "Ejercicio\\": "src/Ejercicio",
+            "Oauth\\":"src/Oauth"
         }
     },
     "config": {
