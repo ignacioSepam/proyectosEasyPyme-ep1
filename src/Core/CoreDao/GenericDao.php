@@ -1,8 +1,8 @@
 <?php
 
-namespace Ejercicio\Dao;
+namespace Core\CoreDao;
 
-use Ejercicio\Dao\Dao;
+use Core\CoreDao\Dao;
 //hace referencia a la clase Dao que se encuentra dentro de la carpeta Dao
 
 //al ser una clase abstracta, nos prohibe su instanciacion pero 

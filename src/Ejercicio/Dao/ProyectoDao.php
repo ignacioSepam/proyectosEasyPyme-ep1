@@ -2,7 +2,7 @@
 
 namespace Ejercicio\Dao;
 
-use Ejercicio\Dao\GenericDao;
+use Core\CoreDao\GenericDao;
 
 
 

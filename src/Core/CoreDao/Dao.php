@@ -1,6 +1,6 @@
 <?php
 
-namespace Ejercicio\Dao;
+namespace Core\CoreDao;
 
 //con este archivo podemos crear las rutas para crear entidades que generará los objetos
 
