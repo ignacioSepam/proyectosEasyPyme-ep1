@@ -7,6 +7,12 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="Realiza")
+ * 
+ * @ManyToOne(targetEntity="Ejercicio\Entity\Empleado", inversedBy="Realiza")
+ * @JoinColumn(name="idEmpleado", referencedColumnName="id")
+ * 
+ * @ManyToOne(targetEntity="Ejercicio\Entity\Proyecto", inversedBy="Realiza")
+ * @JoinColumn(name="idProyecto", referencedColumnName="id")
  */
 
 class Realiza{

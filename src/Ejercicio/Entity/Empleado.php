@@ -7,6 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="Empleado")
+ * 
+ * @OneToMany(targetEntity="\Ejercicio\Entity\Realiza", mappedBy="Empleado")
+ * 
  */
 
 class Empleado {

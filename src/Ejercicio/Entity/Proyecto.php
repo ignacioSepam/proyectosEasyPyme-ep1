@@ -7,6 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="Proyectos")
+ * 
+ * @OneToMany(targetEntity="\Ejercicio\Entity\Realiza", mappedBy="Proyecto")
  */
 
 class Proyecto{
