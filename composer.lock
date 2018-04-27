@@ -1,69 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9258313e330cfc10df772a8dcca91ef",
+    "content-hash": "a04f787173622a88c8e789e120578189",
     "packages": [
-        {
-            "name": "bshaffer/oauth2-server-php",
-            "version": "v1.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bshaffer/oauth2-server-php.git",
-                "reference": "d158878425392fe5a0cc34f15dbaf46315ae0ed9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bshaffer/oauth2-server-php/zipball/d158878425392fe5a0cc34f15dbaf46315ae0ed9",
-                "reference": "d158878425392fe5a0cc34f15dbaf46315ae0ed9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "aws/aws-sdk-php": "~2.8",
-                "firebase/php-jwt": "~2.2",
-                "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^4.0",
-                "predis/predis": "dev-master",
-                "thobbs/phpcassa": "dev-master"
-            },
-            "suggest": {
-                "aws/aws-sdk-php": "~2.8 is required to use DynamoDB storage",
-                "firebase/php-jwt": "~2.2 is required to use JWT features",
-                "mongodb/mongodb": "^1.1 is required to use MongoDB storage",
-                "predis/predis": "Required to use Redis storage",
-                "thobbs/phpcassa": "Required to use Cassandra storage"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "OAuth2": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Brent Shaffer",
-                    "email": "bshafs@gmail.com",
-                    "homepage": "http://brentertainment.com"
-                }
-            ],
-            "description": "OAuth2 Server for PHP",
-            "homepage": "http://github.com/bshaffer/oauth2-server-php",
-            "keywords": [
-                "auth",
-                "oauth",
-                "oauth2"
-            ],
-            "time": "2017-11-15T01:41:02+00:00"
-        },
         {
             "name": "container-interop/container-interop",
             "version": "1.2.0",
@@ -1080,16 +1022,16 @@
         },
         {
             "name": "slim/slim",
-            "version": "3.9.2",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "4086d0106cf5a7135c69fce4161fe355a8feb118"
+                "reference": "d8aabeacc3688b25e2f2dd2db91df91ec6fdd748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/4086d0106cf5a7135c69fce4161fe355a8feb118",
-                "reference": "4086d0106cf5a7135c69fce4161fe355a8feb118",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/d8aabeacc3688b25e2f2dd2db91df91ec6fdd748",
+                "reference": "d8aabeacc3688b25e2f2dd2db91df91ec6fdd748",
                 "shasum": ""
             },
             "require": {
@@ -1147,7 +1089,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2017-11-26T19:13:09+00:00"
+            "time": "2018-04-19T19:29:08+00:00"
         },
         {
             "name": "symfony/console",
