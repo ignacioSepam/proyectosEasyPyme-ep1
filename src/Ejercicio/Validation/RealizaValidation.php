@@ -1,11 +1,12 @@
 <?php
-namespace action\validation;
-use action\validation\GenericValidation;
+namespace Ejercicio\Validation;
+use Ejercicio\Validation\GenericValidation;
+
 
 class RealizaValidation extends GenericValidation {
      
     public function __construct() {
-    $this->entity = '\entity\Entity\Realiza';
+    $this->entity = '\Ejercicio\Entity\Realiza';
         parent::__construct();
     }
 

@@ -25,9 +25,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "oauth\\":"src/oauth/entity",
-            "entity\\": "src/entity",
-            "action\\": "src/action"
+            "Core\\": "src/Core",
+            "Ejercicio\\": "src/Ejercicio"
         }
     },
     "config": {
@@ -37,5 +36,4 @@
         "start": "php -S localhost:8080 -t public",
         "test": "phpunit"
     }
-
 }

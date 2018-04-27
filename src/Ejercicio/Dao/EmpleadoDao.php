@@ -1,8 +1,8 @@
 <?php
 
 namespace Ejercicio\Dao;
+use Ejercicio\Dao\GenericDao;
 
-use entity\Dao\GenericDao;
 //hace referencia a la clase Dao que se encuentra dentro de la carpeta Dao
 
 

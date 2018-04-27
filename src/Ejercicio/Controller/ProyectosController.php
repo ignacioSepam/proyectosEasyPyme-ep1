@@ -6,7 +6,7 @@ use Slim\Http\Response;
 
 use Ejercicio\Dao\ProyectoDao;
 use Ejercicio\Entity\Proyecto;
-use Ejercicio\action\ProyectosAction;
+use Ejercicio\Action\ProyectosAction;
 // Routes
 
 
