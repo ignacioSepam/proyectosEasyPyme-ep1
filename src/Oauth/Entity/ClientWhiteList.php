@@ -1,6 +1,6 @@
 
 <?php
-namespace Ejercicio\Entity;
+namespace Oauth\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
