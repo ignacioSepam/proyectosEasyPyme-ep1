@@ -8,6 +8,21 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="UserToken")
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\User")
+ * @ORM\JoinColumn(name="idUser", referencedColumnName="id", nullable=false)
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\Plataform")
+ * @ORM\JoinColumn(name="idPlataform", referencedColumnName="id", nullable=false)
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\Client")
+ * @ORM\JoinColumn(name="idClient", referencedColumnName="id", nullable=false)
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\AccesToken")
+ * @ORM\JoinColumn(name="idAccessToken", referencedColumnName="id", nullable=true)
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\RefreshToken")
+ * @ORM\JoinColumn(name="idRefreshToken", referencedColumnName="id", nullable=true)
  */
 
 class UserToken {

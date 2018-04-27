@@ -8,6 +8,12 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="SecureCode")
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\SecureCodeType")
+ * @ORM\JoinColumn(name="idSecureCodeType", referencedColumnName="id", nullable=false)
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\User")
+ * @ORM\JoinColumn(name="idUser", referencedColumnName="id", nullable=false)
  */
 
 class SecureCode {

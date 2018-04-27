@@ -7,6 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="AuthToken")
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\AuthTokenType")
+ * @ORM\JoinColumn(name="idAuthTokenType", referencedColumnName="id", nullable=false)
  */
 
 class AuthToken {

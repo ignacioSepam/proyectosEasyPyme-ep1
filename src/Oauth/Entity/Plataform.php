@@ -7,10 +7,10 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @Orm\Table(name="Platform")
+ * @Orm\Table(name="Plataform")
  */
 
-class Platform {
+class Plataform {
     /**
      * @ORM\Id
      * @ORM\Column(name="id",type="integer")

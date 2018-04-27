@@ -8,6 +8,9 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  * @Orm\Table(name="User")
+ * 
+ * @ORM\ManyToOne(targetEntity="\Oauth\Entity\Origin")
+ * @ORM\JoinColumn(name="idOrigin", referencedColumnName="id", nullable=false)
  */
 
 class User {
