@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @Orm\Table(name="Proyectos")
  * 
  * @OneToMany(targetEntity="\Ejercicio\Entity\Realiza", mappedBy="Proyecto")
+ * @JoinColumn(name="realizaList", referencedColumnName="id")
  */
 
 class Proyecto{
@@ -34,6 +35,11 @@ class Proyecto{
      */
     
     protected $descripcion;
+    
+    /**
+     * @ORM\Column(name="realizaList",type="integer")
+     */
+    protected $realizaList;
     
     public function setData($data)
     {

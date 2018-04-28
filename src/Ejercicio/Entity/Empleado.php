@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @Orm\Table(name="Empleado")
  * 
  * @OneToMany(targetEntity="\Ejercicio\Entity\Realiza", mappedBy="Empleado")
+ * @JoinColumn(name="realizaList", referencedColumnName="id")
  * 
  */
 
@@ -37,6 +38,11 @@ class Empleado {
      * @ORM\Column(name="email",type="string")
      */
     protected $email;
+    
+    /**
+     * @ORM\Column(name="realizaList",type="integer")
+     */
+    protected $realizaList;
 
 
     public function getData(){

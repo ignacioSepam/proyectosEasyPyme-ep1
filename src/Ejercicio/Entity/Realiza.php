@@ -25,13 +25,13 @@ class Realiza{
     
     
     /**
-     *@ORM\Column(name="idProyecto",type="string",length=100)
+     *@ORM\Column(name="idProyecto",type="integer",length=5)
      */
     protected $idProyecto;
     
     
     /**
-     * @ORM\Column(name="idEmpleado",type="string")
+     * @ORM\Column(name="idEmpleado",type="integer",length=5)
      */
     protected $idEmpleado;
     
