@@ -29,6 +29,8 @@ $app->get('/', function ($request, $response, $args) {
 ***********************************************
 */
 
+/*
+
 $app->get('/empleado',function(Request $request, Response $response)
 {
     //die('ASD');
@@ -133,7 +135,7 @@ $app->delete('/empleado/delete/{id}', function (Request $request, Response $resp
 });//->add($mw);
    
     
-    
+   */
     
   
     

@@ -9,7 +9,7 @@ use Ejercicio\Entity\Proyecto;
 use Ejercicio\Action\ProyectosAction;
 // Routes
 
-
+/*
 
 $app->get('/proyecto',function(Request $request, Response $response){
     $data=$request->getParsedBody();
@@ -105,7 +105,7 @@ $app->get('/proyecto/{id}',function(Request $request, Response $response,array $
    
     
     
-    
+    */
   
     
     

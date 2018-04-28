@@ -10,7 +10,7 @@ use Ejercicio\Action\RealizaAction;
 
 // Routes
 
-
+/*
 
 $app->get('/realiza', function(Request $request, Response $response) {
     //instanciamos objeto
@@ -105,7 +105,7 @@ $app->delete('/realiza/delete/{id}', function (Request $request, Response $respo
 });//añade middleware
 
 
-
+*/
 
 
 
